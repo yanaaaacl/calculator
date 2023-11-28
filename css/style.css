@@ -50,12 +50,13 @@ margin-bottom: 10px;
 #calculator__box-answer{
     margin-top: 5px;
     width: 100%;
-    padding: 20px 0;
+    padding: 30px 0px;
     border: 2px solid #000;
     text-align: right;
     color: #fff;
     font-size: 30px;
     background-color: #000;
+    display: inline-block;
 }
 
 .calculator__box-buttons{
