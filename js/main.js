@@ -88,7 +88,20 @@ equally.addEventListener('click', function(){
   }
 })
 
-
+let comma = document.querySelector('.comma');
+comma.addEventListener('click', function(){
+  if (operator === null){
+    if (firstNumber != null){
+      firstNumber += comma.textContent;
+    }
+    input.textContent = firstNumber;
+  }else{
+    if(secondNumber != null){
+      secondNumber += comma.textContent;
+    }
+    input.textContent = secondNumber;
+  }
+})
 
 
 
